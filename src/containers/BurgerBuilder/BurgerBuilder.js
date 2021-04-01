@@ -4,6 +4,7 @@ import Burger from '../../components/Burger/Burger'
 import BuildControls from '../../components/Burger/BuildControls/BuildControls'
 import Modal from '../../components/UI/Modal/Modal';
 import OrderSummery from '../../components/Burger/OrderSummary/OrderSummery'
+import Footer from '../../components/Footer/Footer'
 
 const INGREDIENT_PRICE = {
     salad: 0.8,
@@ -106,6 +107,7 @@ class BurgerBuilder extends Component {
                     ordered={this.purchaseHandler}
                     price={this.state.totalPrice}
                 />
+                <Footer />
             </Aux>
         )
     }
