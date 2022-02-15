@@ -1,26 +1,26 @@
-pipeline {
-    agent any
+// pipeline {
+//     agent any
 
-    stages {
-        stage('Build') {
-            steps {
-                sh 'npm i'
-            }
-        }
-        stage('Run') {
-            steps {
-                sh 'npm start'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'npm run test'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-}
+//     stages {
+//         stage('Build') {
+//             steps {
+//                 sh 'npm i'
+//             }
+//         }
+//         stage('Run') {
+//             steps {
+//                 sh 'npm start'
+//             }
+//         }
+//         stage('Test') {
+//             steps {
+//                 sh 'npm run test'
+//             }
+//         }
+//         stage('Deploy') {
+//             steps {
+//                 echo 'Deploying....'
+//             }
+//         }
+//     }
+// }
