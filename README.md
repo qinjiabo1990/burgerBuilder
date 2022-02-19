@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Devops
 
-Pipeline - Jenkins
+Pipeline - Jenkins: Auto build now
